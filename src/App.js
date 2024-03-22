@@ -61,7 +61,7 @@ const copyToClipboard = () => {
     <div className="container">
       <img src={logo} alt="banner" />
       <div className="nav">
-        <h1>∭CHINDI APP∭</h1>
+        <h1>∭LINKER∭</h1>
       </div>
       <div className="wrapper">
         <h1>Simple File Sharing</h1>
