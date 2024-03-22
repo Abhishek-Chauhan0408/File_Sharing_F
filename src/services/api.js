@@ -9,6 +9,11 @@ export const uploadFile = async (data) => {
     let response = await axios.post(`${API_URL}/upload`, data);
     console.log("response path:::", response);
     return response.data;
+   } catch (error) {
+    console.log("Error While Calling",error.message)
+   }
+}
+
   } catch (error) {
     console.log("Error While Calling", error.message);
   }
